@@ -38,7 +38,7 @@ module Fog
 
         def save
           requires :id
-          service.create_vault(id)
+          #service.create_vault(id)
           reload
         end
 
